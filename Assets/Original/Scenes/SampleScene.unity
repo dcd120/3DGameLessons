@@ -1108,12 +1108,46 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &1616882968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1425324000330361398, guid: 281fd5795cbf6344bb0b02e20a6455be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1425323998699195439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1640605210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1425324000330361397, guid: 281fd5795cbf6344bb0b02e20a6455be,
     type: 3}
   m_PrefabInstance: {fileID: 1425323998699195439}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1640605211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616882968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadb3d4416e90ad44a3d2ebdbe3300b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialHealth: {fileID: 11400000, guid: 06cca14525a5d274fbdc1333a703dd41, type: 2}
+  Health: {fileID: 11400000, guid: 09f2e35cc4132a44e84840bd5ef852ab, type: 2}
+--- !u!114 &1640605212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616882968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9e7388923e26f43806836f34985368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitialHealth: {fileID: 11400000, guid: 06cca14525a5d274fbdc1333a703dd41, type: 2}
+  Health: {fileID: 11400000, guid: 09f2e35cc4132a44e84840bd5ef852ab, type: 2}
 --- !u!1 &1647967261
 GameObject:
   m_ObjectHideFlags: 0
